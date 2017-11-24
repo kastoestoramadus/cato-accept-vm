@@ -52,7 +52,7 @@ Vagrant.configure("2") do |config|
   #   # Display the VirtualBox GUI when booting the machine
  	vb.gui = true
   #
-  	vb.customize ["modifyvm", :id, "--cpus", "8", "--memory", "11000"]
+  	vb.customize ["modifyvm", :id, "--cpus", "8", "--memory", "10000"]
 	vb.customize ["modifyvm", :id, "--vram", 64]
         vb.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
 	vb.customize ["modifyvm", :id, "--draganddrop", "bidirectional"]
